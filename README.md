@@ -10,9 +10,12 @@ Tensor-USBDL (Tensor USB Downloader) is a specialized tool for unbricking and bo
 
 ### Supported Devices
 
-- **Tensor G1**: Pixel 6, Pixel 6a, Pixel 6 Pro (GS101)
-- **Tensor G2**: Pixel 7, Pixel 7a, Pixel 7 Pro (GS201)
-- **Tensor G3**: Pixel 8 series (GS301/Exynos9865) - theoretical support
+| SoC | Devices | CLI Argument |
+|-----|---------|--------------|
+| GS101 | Pixel 6, 6a, 6 Pro | `--src sources/gs101` |
+| GS201 | Pixel 7, 7a, 7 Pro | `--src sources/gs201` |
+| GS301 | Pixel 8 | `--src sources/gs301/shiba` |
+| GS301 | Pixel 8 Pro | `--src sources/gs301/husky` |
 
 ## Getting Bootloader Images
 
